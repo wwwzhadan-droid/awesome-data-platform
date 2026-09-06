@@ -112,14 +112,30 @@ def slug(tname):
     return re.sub(r"[^\w\u4e00-\u9fff]+","-",tname).strip("-").lower()[:40]
 
 # ---------- 搜索 ----------
-def search(keyword, limit=40):
-    try:
+def search(keyword, limit=30):
+    """带节流与限流重试的搜索。GitHub Search API 二级限流约 30 次/分钟。"""
+    def once():
         out = subprocess.check_output([GH,"search","repos",keyword,"--sort","stars","--limit",str(limit),
             "--json","fullName,stargazersCount,forksCount,description,url,updatedAt"], stderr=subprocess.DEVNULL)
         return json.loads(out)
-    except Exception as e:
-        print(f"  search fail {keyword}: {e}", file=sys.stderr)
-        return []
+    for attempt in range(3):
+        try:
+            r = once()
+            time.sleep(2.2)  # 节流，避免二级限流
+            return r
+        except subprocess.CalledProcessError as e:
+            err = (e.stderr or b"").decode(errors="ignore")
+            if "secondary rate limit" in err.lower() or "rate limit" in err.lower() or "429" in err or "403" in err:
+                wait = 30 * (attempt + 1)
+                print(f"  rate-limited on '{keyword}', waiting {wait}s (attempt {attempt+1})", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            print(f"  search fail {keyword}: {err[:120]}", file=sys.stderr)
+            return []
+        except Exception as e:
+            print(f"  search fail {keyword}: {e}", file=sys.stderr)
+            return []
+    return []
 
 def main():
     print("== 搜索 ==")
