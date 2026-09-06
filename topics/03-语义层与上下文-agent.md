@@ -1,6 +1,6 @@
 # 🧠 语义层与上下文 / Agent
 
-> 共 **259** 个项目，按 star 降序。[← 返回首页](../README.md)
+> 共 **260** 个项目，按 star 降序。[← 返回首页](../README.md)
 
 | ⭐ Stars | 仓库 | 最近更新 | 中文简介 |
 |--------:|------|----------|----------|
@@ -80,6 +80,7 @@
 | 12,730 | [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 2026-09-06 | One portable 记忆 layer for every AI 智能体: 本地-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows. |
 | 12,486 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | 2026-09-06 | Code 搜索 MCP for Claude Code. Make entire codebase the 上下文 for any coding 智能体. |
 | 12,387 | [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) | 2026-09-06 | Chrome MCP 服务器 is a Chrome extension-based 模型 上下文 Protocol (MCP) 服务器 that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser 自动化, content analysis, and 语义 搜索. |
+| 12,123 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 2026-09-06 | 面向上下文与可问责 AI 系统的图原生基础设施 |
 | 12,068 | [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) | 2026-09-06 | eBPF-powered network 可观测性 for Kubernetes. Indexes L4/L7 traffic with full K8s 上下文, decrypts TLS without keys. Queryable by AI agents via MCP and humans via 仪表盘. |
 | 12,001 | [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) | 2026-09-06 | Expose your FastAPI endpoints as 模型 上下文 Protocol (MCP) tools, with Auth! |
 | 11,153 | [holaboss-ai/holaOS](https://github.com/holaboss-ai/holaOS) | 2026-09-06 | 开源 agentic workspace enterprises can make their own. Connect the systems you already 运行 — 100+ integrations, MCP, 聊天 tools, apps, browser, 本地 files — with shared 记忆. Any 智能体 (Claude Code, Codex), any 模型, or BYOK. Set up in clicks, not m |
