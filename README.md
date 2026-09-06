@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/projects-551+-blue" alt="projects"/> 
+<img src="https://img.shields.io/badge/projects-2131+-blue" alt="projects"/> 
 <img src="https://img.shields.io/badge/themes-10-green" alt="themes"/>
 
 </div>
@@ -16,24 +16,24 @@
 ## 📊 统计
 
 - 主题数：**10**
-- 收录项目：**551** 条（过滤后）
-- 原始检索 994 → 质量过滤后 871 → 归类 551
-- 未命中主题：320 条
+- 收录项目：**2131** 条（过滤后）
+- 原始检索 4178 → 质量过滤后 3572 → 归类 2131
+- 未命中主题：1441 条
 
 ## 📑 主题目录
 
 | # | 主题 | 项目数 | 链接 |
 |--:|------|------:|------|
-| 1 | 🦙 本地 LLM 与推理 | 253 | [查看 →](./topics/01-本地-llm-与推理.md) |
-| 2 | 🔎 RAG 与向量检索 | 238 | [查看 →](./topics/02-rag-与向量检索.md) |
-| 3 | 🧠 语义层与上下文 / Agent | 45 | [查看 →](./topics/03-语义层与上下文-agent.md) |
-| 4 | ✅ 数据质量与可观测性 | 0 | [查看 →](./topics/04-数据质量与可观测性.md) |
-| 5 | 🗄️ 数据中台与数据资产 | 3 | [查看 →](./topics/05-数据中台与数据资产.md) |
-| 6 | 📊 指标平台与 Headless BI | 1 | [查看 →](./topics/06-指标平台与-headless-bi.md) |
-| 7 | 🧬 数据本体与知识图谱 | 3 | [查看 →](./topics/07-数据本体与知识图谱.md) |
-| 8 | 🔌 数据集成与 ELT/CDC | 1 | [查看 →](./topics/08-数据集成与-elt-cdc.md) |
-| 9 | ⚡ 流处理与实时数据 | 2 | [查看 →](./topics/09-流处理与实时数据.md) |
-| 10 | 🤖 AI/ML 工程与 MLOps | 5 | [查看 →](./topics/10-ai-ml-工程与-mlops.md) |
+| 1 | 🦙 本地 LLM 与推理 | 232 | [查看 →](./topics/01-本地-llm-与推理.md) |
+| 2 | 🔎 RAG 与向量检索 | 294 | [查看 →](./topics/02-rag-与向量检索.md) |
+| 3 | 🧠 语义层与上下文 / Agent | 259 | [查看 →](./topics/03-语义层与上下文-agent.md) |
+| 4 | ✅ 数据质量与可观测性 | 160 | [查看 →](./topics/04-数据质量与可观测性.md) |
+| 5 | 🗄️ 数据中台与数据资产 | 361 | [查看 →](./topics/05-数据中台与数据资产.md) |
+| 6 | 📊 指标平台与 Headless BI | 140 | [查看 →](./topics/06-指标平台与-headless-bi.md) |
+| 7 | 🧬 数据本体与知识图谱 | 169 | [查看 →](./topics/07-数据本体与知识图谱.md) |
+| 8 | 🔌 数据集成与 ELT/CDC | 152 | [查看 →](./topics/08-数据集成与-elt-cdc.md) |
+| 9 | ⚡ 流处理与实时数据 | 187 | [查看 →](./topics/09-流处理与实时数据.md) |
+| 10 | 🤖 AI/ML 工程与 MLOps | 177 | [查看 →](./topics/10-ai-ml-工程与-mlops.md) |
 
 ---
 
